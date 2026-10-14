@@ -188,12 +188,10 @@ confirm("Do you want to continue?");
 
 // 8. Console Methods — 2 Questions
 
-// 1. Write one program that uses console.log(), console.warn(), and console.error() to display three different messages.
 console.log("log"); // log
 console.warn("warn"); // warn anonymous
 console.error("error"); // error anonymous
 
-// 2. Write a program using console.log(), console.warn(), console.error(), and console.clear(). Observe what happens after each statement.
 console.log("Log"); // Log
 console.warn("Warn"); // warn
 console.error("Error"); // error
