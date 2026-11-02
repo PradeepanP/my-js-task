@@ -1,11 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>ShopSphere | Products</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <script src="script.js"></script>
+
+    <header class="header">
+        <h1>ShopSphere</h1>
+        <p>Explore products from Fake Store API</p>
+    </header>
+
+    <main class="container">
+
+        <div class="status" aria-live="polite">
+            Preparing to load products...
+        </div>
+
+        <section class="featured-section">
+            <h2>Featured Products</h2>
+            <p class="section-description">
+                Discover our first five products.
+            </p>
+
+            <div id="featured-products" class="featured-grid"></div>
+        </section>
+
+        <section class="all-products-section">
+            <h2>All Products</h2>
+            <p class="section-description">
+                Browse our complete product collection.
+            </p>
+
+            <div id="products" class="products-grid"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>ShopSphere &copy; 2026 | API Practice Project</p>
+    </footer>
+
 </body>
 </html>
