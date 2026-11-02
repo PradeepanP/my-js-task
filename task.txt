@@ -1,0 +1,49 @@
+Part 1: Array Higher-Order Methods
+1. Create an array of 10 numbers and use forEach() to print each number.
+2. Create an array of numbers and use map() to create a new array where every number is multiplied by 5.
+3. Given an array of numbers, use filter() to get only numbers greater than 20.
+4. Create an employee array containing name and salary. Use filter() to display employees whose salary is less than or equal to ₹300,000.
+5. Using the same employee array, use find() to get the first employee whose salary is greater than ₹200,000.
+6. Use reduce() to calculate the total of all numbers in an array.
+7. Create an array of numbers and use some() to check whether at least one number is even.
+8. Use every() to check whether all numbers in an array are greater than zero.
+9. Given an array of numbers, sort them in ascending order using the sort callback.
+10. Given an array of numbers, sort them in descending order using sort() and (a, b) => b - a.
+Part 2: String Methods
+11. Create a string "javascript" and print the character at index 4 using charAt().
+12. Find the character code at index 2 using charCodeAt().
+13. Create a string with spaces at the beginning and end. Remove the extra spaces using trim().
+14. Convert a string to uppercase and lowercase using the appropriate methods.
+15. Check whether a string contains "script" using includes().
+16. Check whether a string starts with "Java" and ends with "Script" using the appropriate methods.
+17. Replace every occurrence of "java" with "python" in a string using replaceAll().
+18. Split the string "html-css-javascript-react" into an array using split().
+19. Convert an array of names into a single string using join() with a comma separator.
+20. Create a string and extract a portion of it using slice().
+Part 3: Date Methods
+21. Create a Date object and print the current year, month, date, and day.
+22. Create an array containing all 12 month names. Use getMonth() to display the current month name.
+23. Print the current hours, minutes, and seconds using the appropriate date methods.
+24. Create a date object and change its year to 2003, month to January, and date to 30 using the setter methods.
+Part 4: Asynchronous JavaScript
+25. Use setTimeout() to print "Welcome to JavaScript" after 3 seconds.
+26. Use setInterval() to print "Learning JavaScript" every 2 seconds.
+27. Stop the interval created in Task 26 after 8 seconds using clearInterval().
+28. Create three functions named one(), two(), and three(). Call them in this order: one(), setTimeout(two, 0), and three(). Observe the output order.
+Part 5: Promises and API Fetching
+29. Create a Promise that resolves with the message "Login successful" and display the result using .then().
+30. Create a Promise that rejects with the message "Invalid password" and handle the error using .catch().
+31. Create a Promise and use .finally() to print "Process completed" regardless of whether it resolves or rejects.
+32. Fetch product data from the Fake Store API:
+https://fakestoreapi.com/products
+Convert the response to JSON and print all product titles using forEach().
+33. Fetch the same API and print the title, price, and category of every product.
+34. Handle API errors using .catch() and display the error message using console.warn().
+35. Use .finally() to print "API call completed" after the fetch process.
+Part 6: Real-Time Mini Tasks
+36. Employee salary report: Create an array of employee objects. Use filter() to select employees earning less than ₹300,000, then use forEach() to print their names and salaries.
+37. Product price calculator: Fetch products from the Fake Store API and use map() to create a new array containing only product titles and prices.
+38. Product search: Fetch products and use filter() to display products belonging to a category you choose.
+39. Number analysis: Given an array of numbers, use map(), filter(), reduce(), some(), and every() to perform different calculations and checks.
+40. Product listing: Fetch the Fake Store API data, convert the response to JSON, and print the title, price, and category of each product. Handle errors with .catch() and print a completion message with .finally().
+Practice rule: Complete Tasks 1–40 in order. For the API tasks, use .then(), .catch(), and .finally() as shown in your notes.
